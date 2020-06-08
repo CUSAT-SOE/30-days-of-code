@@ -2214,7 +2214,12 @@ ol {
 	height: 150px;
 	margin-bottom: 42px;
 }
-
+#coming{
+	width: 65%;padding-left: 35%;
+}
+#coming h2{
+	font-family: 'Fredericka the Great', cursive;font-size: 70px;text-align: center;
+}
 /*-------------------------------- Respinsive Media Styles --------------------------------*/
 
 @media only screen and (min-width: 1200px) {
@@ -2347,6 +2352,12 @@ ol {
 	.member-item {
 		width: 33.33%;
 	}
+	#coming h2{
+		font-family: 'Fredericka the Great', cursive;font-size: 40px;text-align: center;
+	}
+	#coming{
+		padding-left: 5%;
+	}
 }
 
 /* Large Mobile: 480px */
@@ -2441,6 +2452,13 @@ ol {
 	.testimonial-slider.owl-carousel .owl-nav button {
 		margin-top: 10px;
 		position: relative;
+	}
+	#coming h2{
+		font-family: 'Fredericka the Great', cursive;font-size: 40px;
+		text-align: center;
+	}
+	#coming{
+		padding-left: 15%;
 	}
 }
 
