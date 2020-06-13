@@ -1174,14 +1174,14 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background: #171822;
+	background: #727272;
 	padding-top: 50px;
 	padding-bottom: 60px;
 }
 
 .partner-logo {
 	padding-bottom: 50px;
-	border-bottom: 1px solid #2f3039;
+	border-bottom: 1px solid #727272;
 }
 
 .partner-logo .pl-table {
@@ -1192,7 +1192,7 @@ ol {
 .partner-logo .pl-table .pl-tablecell {
 	display: table-cell;
 	vertical-align: middle;
-	height: 41px;
+	height: 40px;
 }
 
 .footer-text {
@@ -1224,7 +1224,7 @@ ol {
 
 .footer-text ul li a {
 	font-size: 18px;
-	color: #a0a1b5;
+	color: #e2e2e2;
 	display: inline-block;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1237,7 +1237,7 @@ ol {
 
 .footer-text .copyright-text {
 	font-size: 14px;
-	color: #a0a1b5;
+	color: #eeeeee;
 	margin-bottom: 28px;
 }
 
@@ -1246,7 +1246,7 @@ ol {
 }
 
 .footer-text .copyright-text a {
-	color: #a0a1b5;
+	color: #eeeeee;
 }
 
 .footer-text .copyright-text a:hover {
@@ -1260,8 +1260,8 @@ ol {
 	text-align: center;
 	line-height: 40px;
 	font-size: 16px;
-	color: #a3a3ae;
-	border: 1px solid #45464e;
+	color: #eeeeee;
+	border: 1px solid #ececec;
 	border-radius: 50%;
 	margin-right: 15px;
 }
