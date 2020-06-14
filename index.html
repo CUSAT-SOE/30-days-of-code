@@ -93,15 +93,15 @@
     <!-- Counter Section Begin -->
     <section class="counter-section bg-gradient">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="counter-text">
-                        <span>16th June</span>
-                        <h3>Counting Every Second <br />Until the Event</h3>
-                    </div>
-                </div>
-                <div class="col-lg-8">
-                    <div class="cd-timer" id="countdown">
+                <!--<div class="col-lg-4">-->
+                        <div  id="ct1">
+                            <p style="font-weight: 600;font-size: 20px;"><i class="fa fa-snowflake-o" style="color: white;padding-right: 5px;font-weight: 600;font-size: 20px;"></i>18th June</p></a>
+                       
+                        </div>
+                        <div class="counter-text" id="ct">
+                        <h3>Hold Your Breath, It's Just </h3>
+                        </div>
+                   <!---- <div class="cd-timer" id="countdown">
                         <div class="cd-item">
                             <span>3</span>
                             <p>Days</p>
@@ -118,11 +118,47 @@
                             <span>32</span>
                             <p>Seconds</p>
                         </div>
-                    </div>
-                </div>
-            </div>
+                    </div>-->
+                    <!--<iframe width="700" height="360" src="https://w2.countingdownto.com/3056243" frameborder="0"></iframe>-->
+                    <!-- Display the countdown timer in an element -->
+                    
+                    <h2 id="demo"></h2>
+
+            <script>
+                // Set the date we're counting down to
+                var countDownDate = new Date("Jun 18 , 2020 00:00:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                // Get today's date and time
+             var now = new Date().getTime();
+
+                // Find the distance between now and the count down date
+            var distance = countDownDate - now;
+
+                 // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // Display the result in the element with id="demo"
+              document.getElementById("demo").innerHTML = days+ " Days : "+hours + " Hrs : "
+             + minutes + " Mins : " + seconds+ " Secs";
+                
+                 // If the count down is finished, write some text
+            if (distance < 0) {
+            clearInterval(x);
+             document.getElementById("demo").innerHTML = "It's Happening!";
+            }
+            }, 1000);
+            </script>
+         <div class="counter-text" id="ct3">
+                <h3>Away!!</h3>
         </div>
-    </section>
+     </div>
+</section>
     <!-- COUNTDOWN Section End -->
     
     <!-- Home About Section Begin -->
@@ -212,7 +248,7 @@
             </div>
             <div class="mi-text">
                 <h5>Maya Menon</h5>
-                <span>Github Campus Advisor<br>Faculty IT SOE<br> CUSAT</span>
+                <span>Github Campus Advisor</span>
             </div>
         </div>
         <div class="member-item set-bg" data-setbg="img/team-member/kai.jpg">
@@ -276,7 +312,6 @@
         <p style="text-align: center;"><b> Special Mention to:</b></p>
         <div id="t1">
         
-          
             <p style="color:rgb(253, 208, 59)"><i class="fa fa-dot-circle-o" style="padding-right: 10px;"></i>Aman Zishan</p>
             <p style="color:rgb(235, 114, 83)"><i class="fa fa-dot-circle-o" style="padding-right: 10px;"></i>Anusha Maiti</p>
             <p style="color:rgb(248, 71, 139)"><i class="fa fa-dot-circle-o" style="padding-right: 10px;"></i>Elizabeth Mary Mathew</p>
