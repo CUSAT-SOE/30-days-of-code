@@ -39,25 +39,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 }
-/*Countdown-button*/
-#demo{
-	padding-left: 15%;
-	padding-top: 2%;
-	font-weight: 600;
-	color: white;
-	font-size: 50px;
-}
-#ct{
-	padding-left:35%;
-}
-#ct1{
-	padding-left:47%;
-	font-weight: 700;
-}
-#ct3{
-	padding-left: 48%;
-}
-/*  ENDS  */
+
 h1,
 h2,
 h3,
@@ -1169,16 +1151,6 @@ ol {
 	width: 100%;
 }
 
-/*---------------------
-  Footer
------------------------*/
-
-.footer-section {
-	background: #727272;
-	padding-top: 50px;
-	padding-bottom: 60px;
-}
-
 .partner-logo {
 	padding-bottom: 50px;
 	border-bottom: 1px solid #727272;
@@ -1195,6 +1167,16 @@ ol {
 	height: 40px;
 }
 
+
+/*---------------------
+  Footer
+-----------------------*/
+
+.footer-section {
+	background: #000000;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
 .footer-text {
 	text-align: center;
 	padding-top: 60px;
@@ -2311,16 +2293,6 @@ ol {
 	.cc-text {
 		padding-top: 65px;
 	}
-	#demo{
-		padding-left: 25%;
-		padding-top: 2%;
-		font-weight: 600;
-		color: white;
-		font-size: 30px;
-	}	
-	#ct{
-		padding-left: 30%;
-	}	
 }
 
 @media only screen and (max-width: 991px) {
@@ -2391,14 +2363,6 @@ ol {
 	.hero-section .hero-text {
 		margin-bottom: 20px;
 	}
-	#demo{
-		padding-left: 20%;
-		padding-top: 2%;
-		font-weight: 500;
-		color: white;
-		font-size: 20px;
-	}	
-	
 }
 
 /* Tablet Device: 768px */
@@ -2430,28 +2394,6 @@ ol {
 	}
 	#e1 {
 		padding-left:5%;
-	}
-	#demo{
-		padding-left: 29%;
-		padding-top: 2%;
-		font-weight: 500;
-		color: white;
-		font-size: 20px;
-	}	
-	
-	#ct{
-		padding-left: 0%;
-	}	
-	#ct h3{
-		font-size: 25px!important;
-		text-align: center;
-	}
-	#ct1{
-		padding-left:42%;
-		font-weight: 700;
-	}
-	#ct3{
-		padding-left: 48%;
 	}
 }
 
@@ -2559,30 +2501,7 @@ ol {
 		padding-left:15%!important;
 		
 	}
-	#demo{
-		padding-left: 3%;
-		padding-top: 2%;
-		font-weight: 500;
-		color: white;
-		font-size: 20px;
-	}	
-	
-	#ct{
-		padding-left: 7%;
-	}
-	#ct h3{
-		font-size: 25px!important;
-		text-align: center;
-	}
-	#ct1{
-		padding-left:32%;
-		font-weight: 700;
-	}
-	#ct3{
-		padding-left: 38%;
-	}
-	
-	
+
 }
 
 /* Small Mobile: 320px */
@@ -2636,11 +2555,4 @@ ol {
 		line-height: 35px;
 		margin-left: 5px;
 	}
-	#demo{
-		padding-left: 2%;
-		padding-top: 2%;
-		font-weight: 500;
-		color: white;
-		font-size: 20px;
-	}	
 }
