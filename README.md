@@ -1,5 +1,5 @@
 # 30 Days of Code
-Connect Create Learn
+Connect | Create | Learn
 
 ## Journey
 
@@ -14,3 +14,8 @@ Visit [Github Education](https://education.github.com/pack/)
 Raise & Claim Issues. Work on it and submit a PR
 
 ### 4. Start your own journey with a strong foundation
+
+_Looking for resources?_ We got you! 
+
+Jump [here](https://kaiiyer.me/) for quick resources from a **hackathon perspective**(_A Project in 24 hrs_)
+- [All you need Hackathon Starter Pack](https://github.com/kaiiyer/hackathon/)
