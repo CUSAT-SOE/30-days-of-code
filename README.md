@@ -19,3 +19,5 @@ _Looking for resources?_ We got you!
 
 Jump [here](https://kaiiyer.me/) for quick resources from a **hackathon perspective**(_A Project in 24 hrs_)
 - [All you need Hackathon Starter Pack](https://github.com/kaiiyer/hackathon/)
+
+We're into the final 10days!!!
