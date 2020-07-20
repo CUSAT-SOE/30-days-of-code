@@ -1,27 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-    <meta name="description" content="CODE | CONNECT | CREATE | 30 days of code is a unique initiative under the SOE,CUSAT focused on helping beginners and newbies to learn and understand the various fields and aspects of the tech world so that they can choose their niche with ease.">
-
-<meta name="keywords" content="CODE, CONNECT , CREATE, CUSAT, developer, google, programming, hackathon, developers, web, cloud,">
-<meta name="twitter:description" content="CODE | CONNECT | CREATE">
-<meta itemprop="description" content="CODE | CONNECT | CREATE CODE | CONNECT | CREATE | 30 days of code is a unique initiative under the SOE,CUSAT focused on helping beginners and newbies to learn and understand the various fields and aspects of the tech world so that they can choose their niche with ease. ">
-
-<meta property="og:description" content="CODE | CONNECT | CREATE | 30 days of code is a unique initiative under the SOE,CUSAT focused on helping beginners and newbies to learn and understand the various fields and aspects of the tech world so that they can choose their niche with ease.">
-
-    <link rel="icon" href="img/favicon.png" type="image/x-icon"/>
     <meta charset="UTF-8">
-    <meta name="description" content="CUSAT 30 days of Code">
+    <meta name="description" content=" CUSAT 30 days of Code ">
+    <meta name="keywords" content=" CUSAT 30 days of Code, event, creativity, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CUSAT 30 days of Code</title>
+    <title> CUSAT 30 days of Code </title>
 
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500,600,700,800,900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
 
 
+    <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -32,389 +27,51 @@
 </head>
 
 <body>
+    <!-- Page Preloder -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
+    <!-- Header Section Begin -->
     <header class="header-section">
         <div class="container">
             <div class="logo">
-                <a href="./index.html">
-                    <img src="img/LOGO.png" alt="">
+                <a href="/index.html">
+                    <img src="/img/logo.png" alt="">
                 </a>
             </div>
             <div class="nav-menu">
                 <nav class="mainmenu mobile-menu">
                     <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html">Home</a></li>
                         <li><a href="./mentor.html">Mentors</a></li>
                         <li><a href="./schedule.html">Schedule</a></li>
-                        <li><a href="./contact.html">Contact Us</a></li>
+                        <li><a href="./contact.html">Contacts</a></li>
                     </ul>
                 </nav>
-
-                <!--button for ticket!!-->
-                <a href="https://form.typeform.com/to/Yxo5uh" class="primary-btn top-btn"><i class="fa fa-ticket"></i> Apply</a>
+                <a href="#" class="primary-btn top-btn"><i class="fa fa-ticket"></i> Ticket</a>
             </div>
             <div id="mobile-menu-wrap"></div>
         </div>
     </header>
-    
+    <!-- Header End -->
 
-    
-    <section class="hero-section set-bg" data-setbg="img/hero.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-7">
-                    <div class="hero-text">
-                        <span style="font-weight: 600;font-size:25px">Code | Connect | Create</span>
-                        <h2 style="font-size: 70px;">30 Days Of Code</h2>
-                        <span style="font-weight: 500; font-size:20px">#coding<i class="fa fa-heart"></i>  #opensourceculture #gitforall</span>
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </div>
-                </div>
-                
-                <div class="col-lg-5">
-                    <img src="img/hero-right.png" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    <!-- Counter Section Begin -->
-    <section class="counter-section bg-gradient">
-        <div class="container">
-                <!--<div class="col-lg-4">-->
-                        <div  id="ct1">
-                            <p style="font-weight: 600;font-size: 20px;"><i class="fa fa-snowflake-o" style="color: white;padding-right: 5px;font-weight: 600;font-size: 20px;"></i>18th June</p></a>
-                       
-                        </div>
-                        <div class="counter-text" id="ct">
-                        <h3>We've successfully completed the event </h3>
-                        </div>
-                    <h2 id="demo"></h2>
- 
-            <script>
-                // Set the date we're counting down to
-                var countDownDate = new Date("Jun 18 , 2020 00:00:00").getTime();
- 
-                // Update the count down every 1 second
-                var x = setInterval(function() {
- 
-                // Get today's date and time
-             var now = new Date().getTime();
- 
-                // Find the distance between now and the count down date
-            var distance = countDownDate - now;
- 
-                 // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
- 
-                // Display the result in the element with id="demo"
-              document.getElementById("demo").innerHTML = days+ " Days : "+hours + " Hrs : "
-             + minutes + " Mins : " + seconds+ " Secs";
-                
-                 // If the count down is finished, write some text
-            if (distance < 0) {
-            clearInterval(x);
-             document.getElementById("demo").innerHTML = "It's Over!";
-            }
-            }, 1000);
-            </script>
-         <div class="counter-text" id="ct3">
-                <h3>Thanks!!</h3>
-        </div>
-     </div>
-</section>
 
-    <section class="home-about-section spad">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="ha-pic">
-                        <img src="img/h-about.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="ha-text">
-                        <h2>About 30 Days of Code</h2>
-                        
-                        <p>30 days of code is a unique initiative under the SOE,CUSAT focused on helping beginners and 
-                            newbies to learn and  understand  the various fields and aspects of the tech world so that
-                             they can choose their niche with ease.The main aim of this venture is to mould beginners into
-                              brilliant developers and coders by the end of 30 days. The program is curated such that every
-                               learner gets proper mentoring,guidance and support. We have some amazing mentors who will definitely make 
-                               you fall in love with technology and beyond. Come, join the fun and be a part of this grand journey!
-
-                        </p>
-                        <ul>
-                            <li><span class="icon_check"></span> It’s going to be extremely beginner-friendly</li>
-                            <li><span class="icon_check"></span> You can make connections with several communities</li>
-                            <li><span class="icon_check"></span> Get the guidance of skilled mentors </li>
-                            <li><span class="icon_check"></span> Build a solid foundation in your niche</li>
-                            <li><span class="icon_check"></span> A handsome github profile</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Home About Section End -->
-    
-    <!-- Eligibility section begins-->
-    <section class="Eligibility">
-            <div class="section-title">
-            <h2>Eligibility</h2>
-            <p style="color: orangered;">Yes, you heard it right! We welcome everyone!!</p>
-            <br>
-            <br>
-            <div id="e1">
-            
-                    <p>Everyone out there, willing to contribute to open source and equally intrigued by technology can apply.
-                    If you are a first timer or someone with basic git skills or even <br> a veteran developer, it doesn’t matter, 30 days of code, will give you a taste of contributing to an open source project.
-                    Also, 30 days of code being open for all, will provide a platform for all the participants to showcase their talents and cater to their technological pursuits.
-             </p>
-             </div>
-            </div>
-        </section>
-        <!-- Eligibility section ends-->
-        
-        <section class="Apply">
-            <div id="apply" class="section-title">
-
-                <ul>
-                <a class="typeform-share button" href="https://form.typeform.com/to/Yxo5uh" data-mode="drawer_left" style="display:inline-block;text-decoration:none;background-color: orangered;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true data-submit-close-delay="0" target="_blank">Apply as Participant </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script><br/>
-                <a class="typeform-share button" href="https://form.typeform.com/to/diqIC7" data-mode="drawer_right" style="display:inline-block;text-decoration:none;background-color: orangered;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" data-hide-headers=true data-hide-footer=true data-submit-close-delay="0" target="_blank">Apply as Mentor </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
-                </ul>
-            </div>
-        </section>
-    
-
-    <!-- Team Member Section Begin -->
-    <section class="team-member-section">
+    <!-- Contact Form Section Begin -->
+    <section class="contact-from-section spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>Who are Behind 30 Days Of Code ?</h2>
-                        <p style="color: orangered;">Get to know  the awesome brains behind 30 Days Of Code!  </p>
+                        <h2>We are done with the EVENT</h2>
+                        <p>This page is Under Construction for new shits!</p>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/miss.jpg">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="https://github.com/"><i class="fa fa-github"></i></a>
-                    <a href="https://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>Maya Menon</h5>
-                <span>Github Campus Advisor<br>Faculty IT SOE<br> CUSAT</span>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/kai.jpg">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="https://github.com/kaiiyer"><i class="fa fa-github"></i></a>
-                    <a href="https://instagram.com/kaiiyer"><i class="fa fa-instagram"></i></a>
-                    <a href="https://twitter.com/kaiiyer"><i class="fa fa-twitter"></i></a>
-                    <a href="https://linkedin.com/in/anoop-krishnan47"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>Kai Iyer</h5>
-                <span>Infosec Developer</span>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/dan.jpg">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="https://github.com/noisyboiiii"><i class="fa fa-github"></i></a>
-                    <a href="https://instagram.com/noisy_boiii"><i class="fa fa-instagram"></i></a>
-                    <a href="https://linkedin.com/in/"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>Dan Jacob</h5>
-                <span>Web Developer</span>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/akash.jpg">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="https://github.com/akash-santhosh"><i class="fa fa-github"></i></a>
-                    <a href="https://instagram.com/akash._.santhosh"><i class="fa fa-instagram"></i></a>
-                    <a href="https://twitter.com/_akashsanthosh"><i class="fa fa-twitter"></i></a>
-                    <a href="https://linkedin.com/in/akashsanthosh"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-            <div class="mi-text">
-                <h5>Akash Santhosh</h5>
-                <span>Community Manager</span>
-            </div>
-        </div>
-        <div class="member-item set-bg" data-setbg="img/team-member/vasant.jpg">
-            <div class="mi-social">
-                <div class="mi-social-inner bg-gradient">
-                    <a href="https://github.com/vasantj3"><i class="fa fa-github"></i></a>
-                    <a href="https://instagram.com/vasantj3"><i class="fa fa-instagram"></i></a>
-                    <a href="https://linkedin.com/vasantjoseph"><i class="fa fa-linkedin"></i></a>
-                </div>
-            </div>
-                <div class="mi-text">
-                    <h5>Vasant Joseph</h5>
-                    <span>Graphic Designer</span>
-                </div>
-            </div>
-            
-        <i class="fa fa-star" style="font-size:20px;color:orangered;padding-left: 49%;"></i>
-        <br>
-        <br>
-        <p style="text-align: center;"><b> Special Mention to:</b></p>
-        <div id="t1">
-        
-          
-            <p style="color:rgb(253, 208, 59)"><i class="fa fa-dot-circle-o" style="padding-right: 10px;"></i>Aman Zishan</p>
-            <p style="color:rgb(235, 114, 83)"><i class="fa fa-dot-circle-o" style="padding-right: 10px;"></i>Anusha Maiti</p>
-            <p style="color:rgb(248, 71, 139)"><i class="fa fa-dot-circle-o" style="padding-right: 10px;"></i>Elizabeth Mary Mathew</p>
-            <p style="color:rgb(241, 58, 159)"><i class="fa fa-dot-circle-o" style="padding-right: 10px;"></i>John Tharian</p>
-            <br>
-            <br>
-            <br>
-            
-        </ol>
-       </div>
-
-
-    </section>
-    <!-- Team Member Section End -->
-    
-     <!-- Working section begins-->
-     <section class="Working">
-            <div class="section-title">    
-            <h2>How Does it work?</h2>
-            <p style="color: orangered;">30 Days Of Code in a nutshell..</p>
-            <br><br>
-            <div id="e1">
-            <p>
-                    30 Days Of Code, is a month-long venture under the SOE, CUSAT which provides participants an exquisite opportunity to work under amazing mentors.
-                    
-<br>
-<br>
-
-                    
-                  <p><b> > </b> <b> First phase </b> begins by calling for project invitations belonging to various tech-domains as follows:</p> <br/>
-                    
-                    <p><b>1. Web Development <br/>(React/Node/Flask/Django)</b> </p><br/>
-                    <p><b>2. Android Development <br/>(Kotlin/Flutter/React Native)</b></p><br/>
-                    <p><b>3. InfoSec <br/>(Digital Security)</b></p><br/>
-                    <p><b>4. Blockchain <br/>(Etherium/DeFi)</b></p><br/>
-                    <p><b>5. Cloud <br/>(Docker/Kubernetes)</b></p><br/>
-                    
-                    <p><b> > Second phase </b> will include the finalisation of the projects accepted in Phase-1, and also the call for mentors. Our view is primarily focussed on finding experienced people with a decent knowledge in their particular stack with a mix of an amazing personality  to serve as mentors so as to guide fellow participants.</p>
-                    <br/>
-                    <p><b> > Third phase </b> will require the students to complete basic git tutorials and also apply for GitHub Pro Student pack. Don’t panic, we have your back and will constantly guide you throughout this journey!</p>
-                    <br/>
-                    <p><b> > Fourth phase </b>will let the participants interact with the mentors and contribute to one or more projects. This will include daily targets which you will have to meet by making pull requests on the project repository.</p>
-                    <br/>
-                    <p><h4><b> At the end of 30 days, you will have had a rock solid foundation in your tech domain, a great experience and a whole lot of fun!</h4></b>
-            </p>
-            </div>
-            </div>
-        </section>
-        <!-- Working section ends-->
-
-    <!-- Pricing Section Begin -->
-    <section class="pricing-section set-bg spad" data-setbg="img/pricing-bg.jpg">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>GET YOUR TICKET/PASS HERE </h2>
-                        <p>Don't worry, we've got your pocket money saved!</p>
-                        <BR>
-                            <p>Here’s an amazing opportunity knocking at your doorstep!<BR>
-                                We have a limited number of seats,<BR> So grab your free tickets now and kick start your journey<BR> before it
-                                 becomes too late!
-                                </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                
-                <div class="col-lg-4 col-md-8">
-                    <div class="price-item top-rated">
-                        <div class="tr-tag">
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <h4>Full Pass</h4>
-                        <div class="pi-price">
-                            <h2>FREE</h2>
-                        </div>
-                        <ul>
-                        <li>30 Days oF Code</li>
-                       <li>Welcome To Open Source</li>
-                       <li>Networking Sessions</li>
-                       <li>Talk to the Mentors</li>
-                       <li>Work on cool projects</li>
-                       <li>Icebreaking sessions</li>
-                       <li>Connect with communties</li>
-                       <li>Loads of free fun</li>
-                    </ul>
-                                            <section style="margin-top: -35px;" class="ftco-section"></section>
-
-                        <a href="https://form.typeform.com/to/Yxo5uh" class="price-btn">GET YOUR FREE TICKET<span class="arrow_right"></span></a>
-                    </div>
-                </div>
-               
             </div>
         </div>
     </section>
-    <!-- Pricing Section Endsssss -->
-                
-    <!-- Contact Section Begin -->
+    <!-- Contact Form Section End -->
 
-    <section class="contact-section spad">
-        <div class="container">
-            <div class="row">
-            <div class="col-lg-6">
-                 <div class="section-title">
-                 <h2>Location</h2>
-                 </div>
-                    <div class="cs-text">
-                      <div class="ct-address">
-                            <span>Address:</span>
-                            <p>Cochin University P.O<br />Cochin - 682 022, Kerala, India</p>
-                        </div>
-                        <ul>
-                        <li>
-                                <span>Email:</span>
-                                Maya.Menon@cusat.ac.in
-                           </li>
-                        </ul>
-                    </div>
-                </div>
-              
-            </div>
-        </div>
-    </section>
-    <!-- Contact Section End -->
    <div class="section-title">
     <h2>Our Supporters</h2>
     </div>
@@ -459,7 +116,7 @@
                         <img src="img/logos/moz __a cusat.png" alt="">
                     </div>
                 </a>
-                 <a href="https://awsugkochi.in" class="pl-table">
+                <a href="https://awsugkochi.in" class="pl-table">
                     <div class="pl-tablecell">
                         <img src="img/logos/AWSUG.png" alt="">
                     </div>
@@ -475,24 +132,23 @@
                     </div>
                 </a>
             </div>
-            
-            <!-- Footer Section Begin -->
-            <footer class="footer-section">
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="footer-text">
                         <div class="ft-logo">
-                            <a href="#" class="footer-logo"><img src="img/.png" alt=""></a>
+                            <a href="#" class="footer-logo"><img src="/img/footer-logo.png" alt=""></a>
                         </div>
                         <ul>
                             <li><a href="./index.html">Home</a></li>
                             <li><a href="./mentor.html">Mentors</a></li>
                             <li><a href="./schedule.html">Schedule</a></li>
-                            <li><a href="./contact.html">Contact Us</a></li>
+                            <li><a href="./contact.html">Contacts</a></li>
                         </ul>
                         <div class="copyright-text"><p>
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | EDGY HACK</a>
-  </p></div>
+ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | EDGY HACK</a</p></div>
                         <div class="ft-social">
                         <a href="https://www.linkedin.com/company/edgyhack"><i class="fa fa-linkedin"></i></a>
                         <a href="https://m.facebook.com/edgyhack/"><i class="fa fa-facebook"></i></a>
@@ -516,5 +172,4 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-
 </html>
